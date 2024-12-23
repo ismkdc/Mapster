@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net9.0;net8.0;</TargetFrameworks>
+    <TargetFramework>net9.0</TargetFramework>
     <IsPackable>true</IsPackable>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>dotnet-mapster</ToolCommandName>
     <Description>Tool to generate object mapping using Mapster</Description>
     <PackageTags>Mapster;Tool</PackageTags>
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>Mapster.Tool.snk</AssemblyOriginatorKeyFile>
+    
+    
     <Version>8.4.2-pre01</Version>
     <Nullable>enable</Nullable>
   </PropertyGroup>

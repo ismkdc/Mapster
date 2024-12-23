@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net9.0;net8.0;</TargetFrameworks>
+    <TargetFramework>net9.0</TargetFramework>
     <Description>Immutable collection supports for Mapster</Description>
     <IsPackable>true</IsPackable>
     <PackageTags>Mapster;Immutable</PackageTags>
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>Mapster.Immutable.snk</AssemblyOriginatorKeyFile>
+    
+    
     <Version>1.0.3-pre01</Version>
     <Nullable>enable</Nullable>
   </PropertyGroup>

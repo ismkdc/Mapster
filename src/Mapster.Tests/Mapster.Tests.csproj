@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFrameworks>net9.0;net8.0;</TargetFrameworks>
+        <TargetFramework>net9.0</TargetFramework>
         <IsPackable>false</IsPackable>
         <AssemblyName>Mapster.Tests</AssemblyName>
-        <AssemblyOriginatorKeyFile>Mapster.Tests.snk</AssemblyOriginatorKeyFile>
-        <SignAssembly>true</SignAssembly>
-        <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
+        
+        
+        
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
